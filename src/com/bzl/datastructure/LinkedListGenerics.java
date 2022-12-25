@@ -8,7 +8,7 @@ public class LinkedListGenerics {
         simpleList.add(56);
         simpleList.add(30);
         simpleList.add(70);
-        simpleList.remove(0);
+        simpleList.removeLast();
         System.out.println(simpleList);
 
     }
