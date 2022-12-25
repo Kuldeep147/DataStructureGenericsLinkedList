@@ -8,8 +8,12 @@ public class LinkedListGenerics {
         simpleList.add(56);
         simpleList.add(30);
         simpleList.add(70);
-        simpleList.removeLast();
-        System.out.println(simpleList);
+        for(Integer a:simpleList){
+            if(a == 30){
+                System.out.println("Node found");
+                break;
+            }
+        }
 
     }
 }
