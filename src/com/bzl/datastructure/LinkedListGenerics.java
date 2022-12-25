@@ -5,9 +5,9 @@ import java.util.LinkedList;
 public class LinkedListGenerics {
     public static void main(String[] args) {
         LinkedList<Integer>  simpleList = new LinkedList<Integer>();
-        simpleList.addLast(56);
-        simpleList.addLast(30);
-        simpleList.addLast(70);
+        simpleList.add(56);
+        simpleList.add(70);
+        simpleList.add(1,30);
         System.out.println(simpleList);
 
     }
