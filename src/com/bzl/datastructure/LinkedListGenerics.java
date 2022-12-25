@@ -12,11 +12,19 @@ public class LinkedListGenerics {
         for(Integer a:simpleList){
             i++;
             if(a == 30){
-                System.out.println("Node found");
                 break;
             }
         }
         simpleList.add(i,40);
+        int d = 0;
+        for(Integer a:simpleList){
+            d++;
+            if(a == 40){
+                break;
+            }
+        }
+        simpleList.remove(d - 1);
+
         System.out.println(simpleList);
 
     }
